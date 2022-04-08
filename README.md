@@ -1,2 +1,2 @@
-# DVM-P25-Config
+# Centrunk-base-config
 Here lives the default config files for the P25 Installer Script!
