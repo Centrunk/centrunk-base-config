@@ -1,0 +1,12 @@
+[Unit]
+Description=Centrunk CCM Service
+After=syslog.target network.target
+
+[Service]
+User=root
+Type=forking
+ExecStart=/opt/centrunk/config/bin/ccm.sh
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target
