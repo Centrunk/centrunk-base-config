@@ -3,7 +3,7 @@ Description=Centrunk P25 TRS Service
 After=syslog.target network.target
 
 [Service]
-User=dvmhost
+User=root
 Type=forking
 ExecStart=/opt/dvm/dvmhost -c /opt/dvm/config.centrunk.yml
 Restart=on-abnormal
